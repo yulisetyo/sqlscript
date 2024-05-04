@@ -1,0 +1,12 @@
+SIKPDB =
+	(DESCRIPTION=
+		(ADDRESS=
+			(PROTOCOL=TCP)
+			(HOST=10.216.208.11)
+			(PORT=3306)
+		)
+		(CONNECT_DATA=
+			(SERVICE_NAME=pdb_sikpdev)
+			(SID=pdb_sikpdev)
+		)
+	)

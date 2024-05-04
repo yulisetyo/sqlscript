@@ -1,0 +1,56 @@
+langkah-langkah install dan setup TOAD 11.5
+
+Download Oracle Instantclient dan sesuaikan dengan versi TOADnya 
+untuk TOAD 32-bit maka Instantclient-nya 32-bit juga (misal Instantclient yang versi 19.22.0.0.0)
+lalu ekstrak dan copas di drive C sehingga akan ada C:\instantclient_19_22
+
+
+setup Key pada Environment Variables
+- buka Environment Variables
+- klik New untuk membuat variabel ORACLE_HOME
+-- beri nama variable name dengan nama ORACLE_HOME
+-- isi variable value-nya sesuai dengan path Oracle Instantclient yang digunakan (misal C:\instantclient_19_22) dan klik OK
+
+- klik New lagi untuk membuat variabel ORACLE_HOME_NAME
+-- beri nama variable name dengan nama ORACLE_HOME_NAME
+-- isi variable value-nya dengan nama direktori Oracle Instantclient yang digunakan (misal instantclient_19_22) dan klik OK
+-- klik Path lalu klik Edit
+-- klik New lalu isikan path Oracle Instantclient yang digunakan (misal C:\instantclient_19_22)
+-- lalu klik Move Up untuk menaruh Instantclient di daftar paling atas
+
+- klik New lagi untuk membuat variabel TNS_ADMIN
+-- beri nama variable name dengan nama TNS_ADMIN
+-- isi variable value-nya dengan browse file lalu arahkan ke C:\instantclient_19_22 dan pilih file TNSNames.ora
+
+
+setup Key pada Registry Editor 
+- buka Registry Editor
+- klik HKEY_LOCAL_MACHINE 
+- klik SOFTWARE 
+- klik WOW6432Node
+- klik kanan WOW6432Node pilih New pilih Key
+- lalu beri nama dengan ORACLE
+- klik kanan ORACLE pilih New pilih Key
+- lalu beri nama dengan KEY_INSTANTCLIENT
+- klik kanan pada KEY_INSTANTCLIENT pilih New pilih String Value dan beri nama ORACLE_HOME
+- klik kanan pada ORACLE_HOME pilih Modify dan pada value data diisi dengan path Oracle Instantclient yang digunakan (misal C:\instantclient_19_22) lalu klik OK
+- klik kanan pada KEY_INSTANTCLIENT pilih New pilih String Value dan beri nama ORACLE_HOME_NAME
+- klik kanan pada ORACLE_HOME_NAME pilih Modify dan pada value data diisi dengan nama direktori Oracle Instantclient yang digunakan (misal instantclient_19_22) lalu klik OK
+
+
+buat file dengan nama TNSNames.ora lalu isi dengan parameter sebagai berikut (misalnya):
+SIKPDB =
+	(DESCRIPTION=
+		(ADDRESS=
+			(PROTOCOL=TCP)
+			(HOST=10.216.208.11)
+			(PORT=3306)
+		)
+		(CONNECT_DATA=
+			(SERVICE_NAME=pdb_sikpdev)
+			(SID=pdb_sikpdev)
+		)
+	)
+	
+kemudian file TNSNames.ora copas di dalam C:\instantclient_19_22
+
