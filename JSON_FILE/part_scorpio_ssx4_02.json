@@ -1,0 +1,37 @@
+[
+  {
+    "ref": 1,
+    "category": "CYLINDER",
+    "part_number": "5BP-E1310-01",
+    "description": "CYLINDER ASSY",
+    "quantity": 1
+  },
+  {
+    "ref": 2,
+    "category": "CYLINDER",
+    "part_number": "93210-78544",
+    "description": "O-RING",
+    "quantity": 1
+  },
+  {
+    "ref": 3,
+    "category": "CYLINDER",
+    "part_number": "5BP-E1351-00",
+    "description": "GASKET, CYLINDER",
+    "quantity": 1
+  },
+  {
+    "ref": 4,
+    "category": "CYLINDER",
+    "part_number": "93210-13657",
+    "description": "O-RING",
+    "quantity": 1
+  },
+  {
+    "ref": 5,
+    "category": "CYLINDER",
+    "part_number": "91317-06065",
+    "description": "BOLT",
+    "quantity": 2
+  }
+]

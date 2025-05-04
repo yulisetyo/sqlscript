@@ -1,0 +1,163 @@
+[
+  {
+    "ref": 1,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "5BP-E1400-00",
+    "description": "CRANKSHAFT ASSY",
+    "quantity": 1
+  },
+  {
+    "ref": 2,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "5BP-E1412-00",
+    "description": "CRANK 1",
+    "quantity": 1
+  },
+  {
+    "ref": 3,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "5BP-E1422-00",
+    "description": "CRANK 2",
+    "quantity": 1
+  },
+  {
+    "ref": 4,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "5BP-11681-00",
+    "description": "PIN, CRANK 1",
+    "quantity": 1
+  },
+  {
+    "ref": 5,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "93310-530X3",
+    "description": "BEARING",
+    "quantity": 1
+  },
+  {
+    "ref": 6,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "29U-11651-00",
+    "description": "ROD, CONNECTING",
+    "quantity": 1
+  },
+  {
+    "ref": 7,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "90240-07105",
+    "description": "PIN, CLEVIS",
+    "quantity": 1
+  },
+  {
+    "ref": 8,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "90501-07629",
+    "description": "SPRING, COMPRESSION",
+    "quantity": 1
+  },
+  {
+    "ref": 9,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "93602-13832",
+    "description": "PIN, DOWEL",
+    "quantity": 1
+  },
+  {
+    "ref": 10,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "93306-37811",
+    "description": "BEARING",
+    "quantity": 2
+  },
+  {
+    "ref": 11,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "5BP-E1631-00",
+    "description": "PISTON (STD)",
+    "quantity": 1
+  },
+  {
+    "ref": 12,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "",
+    "description": "PISTON RING SET (STD)",
+    "quantity": 1
+  },
+  {
+    "ref": 13,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "15A-11633-00",
+    "description": "PIN, PISTON",
+    "quantity": 1
+  },
+  {
+    "ref": 14,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "93450-17044",
+    "description": "CIRCLIP",
+    "quantity": 2
+  },
+  {
+    "ref": 15,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "5BP-11549-00",
+    "description": "SPROCKET, CAM CHAIN",
+    "quantity": 1
+  },
+  {
+    "ref": 16,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "5BP-11478-00",
+    "description": "COLLAR",
+    "quantity": 1
+  },
+  {
+    "ref": 17,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "90105-10430",
+    "description": "BOLT, FLANGE",
+    "quantity": 1
+  },
+  {
+    "ref": 18,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "90201-102R1",
+    "description": "WASHER, PLATE",
+    "quantity": 1
+  },
+  {
+    "ref": 19,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "90280-05013",
+    "description": "KEY, WOODRUFF",
+    "quantity": 1
+  },
+  {
+    "ref": 20,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "5BP-E1636-00",
+    "description": "PISTON (0.50MM O/S)",
+    "quantity": 1
+  },
+  {
+    "ref": 21,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "5BP-E1638-00",
+    "description": "PISTON (1.00MM O/S)",
+    "quantity": 1
+  },
+  {
+    "ref": 22,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "29U-11605-10",
+    "description": "PISTON RING SET (0.50MM O/S)",
+    "quantity": 1
+  },
+  {
+    "ref": 23,
+    "category": "CRANKSHAFT AND PISTON",
+    "part_number": "29U-11607-10",
+    "description": "PISTON RING SET (1.00MM O/S)",
+    "quantity": 1
+  }
+]

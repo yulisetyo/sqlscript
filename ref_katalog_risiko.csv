@@ -1,0 +1,244 @@
+ID|ID_SASARAN|NM_KEJADIAN|TAHUN|AKTIF|PENYEBAB|KD_AREA_DAMPAK|KD_LVL_DAMPAK|KD_KEMUNGKINAN|ID_UNITDTL
+|21542|Tagihan yang tidak terbayarkan sampai dengan akhir tahun anggaran|2024|1|Satker tidak mengirimkan tagihan ke KPPN|03|02|01|35072806
+|21542|Terdapat transaksi dalam konfirmasi|2024|1|faersdtfh|06|01|02|350705
+|21542|Terdapat satuan kerja yang terlambat melaporkan data capaian output di open periode reguler|2024|1|kendala jaringan internet|03|03|03|35071314
+|21542|Penihilan UP/TUP tidak akurat|2024|1|||||
+|21542|Pengajuan GUP/PTUP  tidak tepat waktu|2024|1|||||
+|21542|Pengisian/Pelaporan Data Capaian Output terlambat dan/atau tidak sesuai ketentuan|2024|1|||||
+|21542|Kesalahan pada data Kontrak yang didaftarkan ke KPPN |2024|1|||||
+|21542|Terdapat informasi dalam laporan keuangan yang tidak dijelaskan di CaLK|2024|1|||||
+|21542|Aplikasi SAKTI, Aplikasi MonSAKTI dan Aplikasi SPAN untuk proses akuntansi dan pelaporan keuangan tidak berjalan sebagaimana mestinya|2024|1|ewretryet|03|03|02|350711
+|21542|Kesalahan penggunaan akun potongan pajak impor dan Potongan Fihak ketiga (PFK)|2024|1|||||
+|21542|Adanya Anomali Akun dan Saldo Tidak Normal |2024|1|||||
+|21542|Terdapat pendapatan pajak yang dibukukan oleh satker di luar DJP dan DJBC|2024|1|||||
+|21543|Respon atas pertanyaan/konsultasi dari pengguna layanan tidak tepat waktu|2024|1|||||
+|21543|Terjadi konflik kepentingan dalam proses pemrosesan SPM menjadi SP2D|2024|1|||||
+|21543|Terjadi pemadaman listrik (yang disengaja maupun tidak)|2024|1|||||
+|21543|Kehilangan barang milik pengguna layanan|2024|1|||||
+|21543|Terhambatnya operasionalisasi Aplikasi SAKTI|2024|1|||||
+|21543|Demonstrasi masyarakat ke KPPN|2024|1|||||
+|21543|Pemrosesan SPM menjadi SP2D terhenti|2024|1|||||
+|21543|Terjadi gangguan pada layanan TTE akibat adanya kendala pada sistem BSrE BSSN|2024|1|||||
+|21543|Terhambatnya aplikasi layanan perbendaharaan|2024|1|||||
+|21544|Rendahnya jumlah pejabat perbendaharaan yang telah melakukan penilaian kompetensi|2024|1|||||
+|21544|Refreshment pejabat perbendaharaan tidak dapat diselenggarakan|2024|1|||||
+|21544|Bendahara satker yang belum bersertifikat|2024|1|||||
+|21544|Peserta tidak antusias mengikuti acara sosialisasi/bimtek|2024|1|||||
+|21544|Nilai post test peserta bimtek sama atau lebih rendah dari pre test|2024|1|||||
+|21546|Mekanisme schedule payment date menurunkan kinerja pelaksanaan anggaran|2024|1|||||
+|21546|Terdapat deviasi akibat pembayaran uang makan dan uang lembur menggunakan Platform Pembayaran Pemerintah (PPP) di DJPb|2024|1|||||
+|21546|Pelaksanaan anggaran yang tidak sesuai dengan kalender/jadwal rencana penarikan dana|2024|1|||||
+|21546|Terdapat SPM yang tidak terproses menjadi SP2D|2024|1|||||
+|21546|Pengesahan SKPP melebihi standar layanan|2024|1|||||
+|21546|Penyelesaian ADK SPM yang masuk ke SPAN pada pukul 08.00 sampai dengan pukul  12.00 waktu setempat melebihi 1 jam|2024|1|||||
+|21546|Bertambahnya jumlah retur SP2D|2024|1|||||
+|21546|Kesalahan penanggalan jatuh tempo SP2D|2024|1|||||
+|21546|SP2D Gaji induk terproses menjadi SP2D harian|2024|1|||||
+|21546|Data rekening K/L pada Aplikasi SPRINT tidak up to date|2024|1|||||
+|21546|Penyelesaian Retur SP2D lebih dari 8 HK|2024|1|||||
+|21545|Rekon Dana Desa yang tidak tuntas/selesai dengan ketentuan|2024|1|||||
+|21545|Kelebihan/kekurangan jumlah penyaluran DAK Fisik dan Dana Desa|2024|1|||||
+|21545|Terdapat penyaluran DAK Fisik    dan Dana Desa berdasarkan dokumen persyaratan penyaluran yang salah/tidak lengkap|2024|1|||||
+|21545|Penyaluran TKD yang baru disalurkan melalui KPPN di daerah (selain DAK Fisik, Dana Desa, BOS, BOP, BOK Puskesmas) terlambat/tidak tersalurkan tepat waktu|2024|1|||||
+|21545|Terjadi deviasi atas proyeksi penyaluran dana desa|2024|1|||||
+|21545|Ketidakakuratan data rekapitulasi Kelompok Penerima Manfaat (KPM)|2024|1|||||
+|21545|Penyaluran TKD berupa DAU atau DBH terdapat kesalahan perhitungan di dalam kertas kerja.|2024|1|||||
+|21545|Penyaluran TKD (based on rekomendasi DJPK) terlambat/tidak tersalurkan tepat waktu|2024|1|||||
+|21545|KPPN  terlambat dalam memproses TKD yang disalurkan berdasarkan penyampaian dokumen syarat salur (DAK Fisik dan Dana Desa)|2024|1|||||
+|21545|Rendahnya transaksi keuangan KPPN sebagai satker pada digipay satu|2024|1|||||
+|21545|Kurangnya Vendor terdaftar pada Aplikasi Digipay Satu|2024|1|||||
+|21547|Tidak semua satker melakukan rekon|2024|1|||||
+|21547|Penyelesaian Rekonsiliasi  Internal yang terlambat |2024|1|||||
+|21547|Terdapat anomali akun yang tidak normal dalam SPAN|2024|1|||||
+|21547|Mekanisme dispensasi penyelesaian to do list tidak dapat diterapkan seluruhnya|2024|1|||||
+|21547|Terhambatnya penerbitan Surat Hasil Rekonsiliasi (SHR) |2024|1|||||
+|21547|Terdapat Saldo Pajak pada Buku Pembantu Pajak LPJ Bendahara Pengeluaran|2024|1|||||
+|21547|Adanya keterlambatan penyampaian laporan saldo rekening pemerintah pada satuan kerja|2024|1|||||
+|21547|LPJ Bendahara disampaikan ke KPPN tidak tepat waktu|2024|1|||||
+|21549|SK Tim Implementasi Treasury dan Financial Advisory belum ditetapkan|2024|1|||||
+|21549|Tidak melakukan analisis terkait perekonomian daerah|2024|1|||||
+|21549|Tusi KPPN sebagai Financial Advisory tidak berjalan|2024|1|||||
+|21549|Kemampuan SDM dalam menyusun data analisis di KPPN masih rendah|2024|1|||||
+|21549|KPPN tidak dapat mengikuti rapat pembahasan Kebijakan Umum Anggaran (KUA) dan Prioritas Plafon Anggaran Sementara (PPAS)|2024|1|||||
+|21550|Langkah-langkah peningkatan kualitas pengelolaan kinerja tidak dilaksanakan keseluruhan|2024|1|||||
+|21550|Keterlambatan penyampaian Laporan Kinerja (LAKIN) KPPN|2024|1|||||
+|21550|Performance dialogue tidak terlaksana sesuai ketentuan|2024|1|||||
+|21550|Pegawai terlambat melakukan input hasil penilaian kinerja di aplikasi e-performance|2024|1|||||
+|21550|Terjadi kesalahan dalam pengisian IKU|2024|1|||||
+|21550|Capaian inisiatif sasaran strategis kurang dari target|2024|1|||||
+|21550|Terdapat kesalahan atau keterlambatan penginputan reviu Kualitas Kontrak Kinerja (K3) pada Aplikasi e-performance|2024|1|||||
+|21550|Terdapat Target IKU Kemenkeu-Three DJPb yang tidak tercapai|2024|1|||||
+|21550|Kesalahan pengajuan grading|2024|1|||||
+|21550|Kehadiran pegawai mengikuti GKM rendah|2024|1|||||
+|21550|Jumlah pegawai yang mengikuti diklat tidak sesuai target|2024|1|||||
+|21550|Antusias pegawai mengikuti Kegiatan Peningkatan Kompetensi rendah|2024|1|||||
+|21550|Dokumentasi Pelaksanaan tugas KI tidak lengkap|2024|1|||||
+|21550|Terjadinya gratifikasi/suap|2024|1|||||
+|21550|Proses Manajemen Risiko tidak dijalankan sesuai dengan ketentuan|2024|1|||||
+|21550|Menerima gratifikasi dari rekanan pada saat pelaksanaan pengadaan barang dan/atau jasa|2024|1|||||
+|21550|Menerima hadiah dari rekanan pada saat hari raya keagamaaan|2024|1|||||
+|21550|Pemalsuan SPM satuan kerja|2024|1|||||
+|21550|Terjadinya pelanggaran kode etik|2024|1|||||
+|21550|Adanya tangkap tangan, pungutan liar (pungli), tindakan korupsi yang terverifikasi oleh Unit Kepatuhan Internal (UKI), Itjen, dan/atau dideteksi oleh Aparat Penegak Hukum|2024|1|||||
+|21550|Pegawai tidak netral dan terlibat politik praktis|2024|1|||||
+|21551|Penggunaan dana yang  tidak  sesuai dengan peruntukannya|2024|1|||||
+|21551|Penyalahgunaan Kartu Kredit Pemerintah (KKP)|2024|1|||||
+|21551|Terjadinya peretasan data KKP oleh pihak yang tidak bertangggung jawab|2024|1|||||
+|21551|Penggunaan KKP tidak memenuhi target transaksi|2024|1|||||
+|21551|Pembayaran tagihan kartu kredit melewati batas akhir tagihan|2024|1|||||
+|21551|Pembayaran kuitansi fiktif|2024|1|||||
+|21551|Kurangnya ketepatan waktu pembayaran tunjangan kinerja melalui aplikasi gaji|2024|1|||||
+|21551|Kurangnya ketepatan waktu pembayaran uang makan dan uang lembur melalui PPP|2024|1|||||
+|21551|Porsi penggunaan KKPD jika dibandingkan dengan KKP relatif lebih kecil|2024|1|||||
+|21551|Pembangunan gedung KPPN terhenti|2024|1|||||
+|21551|Terjadinya fraud/KKN dalam pembangunan gedung KPPN|2024|1|||||
+|21551|Penyampaian LK UAPPA-W tidak memenuhi target|2024|1|||||
+|21551|Permasalahan Implementasi Sistem Akuntansi Instansi pada KL|2024|1|||||
+|21551|Implementasi Sistem Akuntansi pada KPPN  tidak berjalan sesuai peraturan|2024|1|||||
+|21551|Terjadi konflik kepentingan dalam pengadaan barang dan jasa|2024|1|||||
+|21551|Terganggunya keamanan informasi|2024|1|||||
+|21551|Terdapat checklist rencana Sistem Manajemen Keamanan Informasi yang tidak dilaksanakan|2024|1|||||
+|21551|Mark up dalam menentukan Harga Perkiraan Sendiri (HPS)|2024|1|||||
+|21551|Pembayaran yang melebihi standar biaya|2024|1|||||
+|21551|Kegagalan dalam proses pengadaan barang dan jasa|2024|1|||||
+|21551|Penyelesaian pekerjaan pengadaan  barang   dan   jasa yang melewati batas waktu pada akhir tahun anggaran|2024|1|||||
+|21551|Terdapat pembelian BBM untuk kendaraan dinas yang tidak wajar|2024|1|||||
+|21551|Barang yang terdapat dalam Daftar Laporan Barang pada ruangan tidak sama dengan kenyataannya|2024|1|||||
+|21551|BMN dikuasai oleh pihak lain yang tidak berhak|2024|1|||||
+|21551|Kerusakan BMN|2024|1|||||
+|21551|Data BMN tidak akurat|2024|1|||||
+|21551|Kehilangan aset negara|2024|1|||||
+|21551|Penghapusan aset memakan waktu lama|2024|1|||||
+|21551|Banjir pada Rumah Dinas dan Lingkungan sekitar Kantor KPPN|2024|1|||||
+|21551|Kebakaran gedung kantor|2024|1|||||
+|21551|Penggunaan BMN untuk kepentingan pribadi|2024|1|||||
+|21552|User SPAN digunakan oleh pegawai yang tidak berhak|2024|1|||||
+|21543|Tidak lolos dalam penilaian WBK/WBBM|2024|1|||||
+|21543|Dicabutnya predikat Unit Kerja ZI-WBBM|2024|1|||||
+|21543|Menurunnya kualitas kinerja pegawai selama penerapan FWS|2024|1|||||
+|21543|Pemberitaan negatif terhadap Instansi|2024|1|||||
+|21543|Adanya klausul ISO SMAP yang tidak diterapkan oleh unit kerja|2024|1|||||
+|21543|Kegagalan dalam memperoleh sertifikasi ISO SMAP|2024|1|||||
+|21543|Pencabutan sertifikat ISO SMAP|2024|1|||||
+|21543|Terjadi konflik dan/atau kerusuhan antar suku|2024|1|||||
+|21544|Pemanggilan pejabat/pegawai KPPN oleh aparat/penegak hukum|2024|1|||||
+|21544|Distorsi informasi terkait penyaluran anggaran (APBN) untuk penyelenggaraan Pemilu 2024|2024|1|||||
+|21550|Terjadinya penyalahgunaan informasi dan data|2024|1|||||
+|21550|Pegawai ditetapkan menjadi tersangka pada pelanggaran hukum terkait pelaksanaan anggaran|2024|1|||||
+|21550|Menurunnya kepuasan internal pegawai pada unit kerja|2024|1|||||
+|21542|Nilai Capaian Output rendah|2024|1|||||
+|21542|Penyerapan anggaran/belanja negara Kementerian/Lembaga rendah|2024|1|||||
+|21542|Terjadinya pagu minus pada level enam digit belanja satker K/L|2024|1|||||
+|21542|Terdapat anomali realisasi volume Rincian Output (RO)|2024|1|||||
+|21542|Penyelesaian dispensasi besaran UP tidak tepat waktu|2024|1|||||
+|21542|Penyampaian Laporan Keuangan tingkat UAKBUN-Daerah tidak tepat waktu|2024|1|||||
+|21542|Temuan BPK pada UAK BUN- D dalam lingkup kanwil yang tidak ditindaklanjuti|2024|1|||||
+|21542|Terdapat informasi dalam laporan keuangan yang tidak dijelaskan di CaLK|2024|1|||||
+|21542|Aplikasi SAKTI, Aplikasi MonSAKTI dan Aplikasi SPAN untuk proses akuntansi dan pelaporan keuangan tidak berjalan sebagaimana mestinya|2024|1|||||
+|21543|Analisis dan rekomendasi KFR tidak valid|2024|1|||||
+|21543|Penyampaian Brief Sheet terkait RCE yang terlambat|2024|1|||||
+|21543|Pelaksanaan FKPKN tingkat daerah tidak dilaporkan secara memadai|2024|1|||||
+|21543|Kegiatan FKPKN Tingkat Daerah tidak dilaksanakan|2024|1|||||
+|21543|Kesalahan penyajian data pada forum dan laporan ALCo|2024|1|||||
+|21543|Adanya Resistensi dari Mitra DJPb di Daerah (Eselon I Kemenkeu Lain, Kementerian/Lembaga, Pemerintah Daerah) untuk terlibat di FKPKN|2024|1|||||
+|21543|Hasil ALCO di daerah tidak efektif digunakan |2024|1|||||
+|21543|Feedback negatif dari Stakeholders/Local Expert atas Survei Implementasi RCE |2024|1|||||
+|21543|Tersebarnya data mentah penyusunan ALCo Regional, KFR, dan FKPKN kepada pihak-pihak yang tidak terkait|2024|1|||||
+|21543|Terhambatnya operasionalisasi Aplikasi SAKTI|2024|1|||||
+|21543|Pemberitaan Negatif terhadap Instansi|2024|1|||||
+|21543|Kehilangan barang milik pengguna layanan|2024|1|||||
+|21543|Respon atas pertanyaan/konsultasi dari pengguna layanan tidak tepat waktu|2024|1|||||
+|21543|Terjadinya pemadaman listrik saat jam layanan|2024|1|||||
+|21543|Penyelesaian revisi DIPA tidak tepat waktu|2024|1|||||
+|21544|Tingkat pemahaman peserta pada kegiatan sosialisasi rendah|2024|1|||||
+|21544|Nilai post test peserta bimtek sama atau lebih rendah dari pre test|2024|1|||||
+|21545|Penyaluran Dana Alokasi Umum tidak sesuai rekomendasi penyaluran atau KMK mengenai penundaan, pemotongan, dan/atau penyaluran kembali|2024|1|||||
+|21545|MoU dengan Pemda tidak dijalankan sesuai kesepakatan|2024|1|||||
+|21545|Dana transfer tidak digunakan sesuai dengan alokasi|2024|1|||||
+|21545|Penyelesaian revisi dokumen pelaksanaan anggaran tidak tepat waktu|2024|1|||||
+|21545|Kewenangan revisi anggaran yang belum dapat dilaksanakan|2024|1|||||
+|21545|Implementasi Modul MP PNBP Terhambat|2024|1|||||
+|21545|Vendor enggan mendaftar pada Aplikasi Digipay Satu |2024|1|||||
+|21546|Penyampaian Laporan Rencana Penarikan Dana tingkat KPPN tidak tepat waktu|2024|1|||||
+|21546|Pelaksanaan anggaran yang tidak sesuai dengan kalender/jadwal/ Rencana Penarikan Dana|2024|1|||||
+|21546|Mekanisme schedule payment date menurunkan kinerja pelaksanaan anggaran|2024|1|||||
+|21547|Penyampaian laporan GFS tingkat Kanwil tidak tepat waktu|2024|1|||||
+|21547|Data GFS yang disampaikan tidak akurat|2024|1|||||
+|21547|Analisis data Government Finance Statistic (GFS) kurang tepat|2024|1|||||
+|21547|Data Sumber Penyusunan LSKP Tingkat Wilayah Tidak Lengkap|2024|1|||||
+|21547|Temuan BPK pada UAKPA dalam lingkup masing- masing UAPPA-W yang tidak ditindaklanjuti|2024|1|||||
+|21547|Kualitas Data Laporan Keuangan tidak memadai sebagaimana ketentuan yang berlaku|2024|1|||||
+|21547|Terdapat anomali akun yang tidak normal dalam SPAN|2024|1|||||
+|21548|Penyampaian laporan monitoring dan evaluasi Kredit Program tidak tepat waktu|2024|1|||||
+|21548|Analisis penyaluran pembiayaan ultra mikro yang tidak valid|2024|1|||||
+|21548|Outstanding pinjaman debitur kurang akurat|2024|1|||||
+|21548|Asistensi BLUD tidak efektif|2024|1|||||
+|21548|Pembinaan BLU tidak maksimal|2024|1|||||
+|21548|Adanya Pelanggaran Hukum dalam pengelolaan BLU|2024|1|||||
+|21548|Pengisian capaian output kegiatan Asistensi BLUD belum sesuai dengan ketentuan|2024|1|||||
+|21549|Tindak lanjut hasil pembinaan dan supervisi proses bisnis KPPN tidak sesuai dengan rekomendasi pembinaan sebelumnya|2024|1|||||
+|21549|SK Tim Implementasi Treasury dan Financial Advisory belum ditetapkan|2024|1|||||
+|21549|Tidak melakukan analisis terkait perekonomian daerah|2024|1|||||
+|21549|Kebocoran dokumen terkait pelaksanaan tugas dan fungsi|2024|1|||||
+|21549|Distorsi informasi dan pemberitaan negatif terhadap organisasi|2024|1|||||
+|21549|Pemberdayaan UMKM tidak maksimal|2024|1|||||
+|21549|Loyalitas pegawai yang rendah terhadap organisasi|2024|1|||||
+|21550|Keterlambatan penyampaian Laporan SFO secara triwulanan|2024|1|||||
+|21550|Keterlambatan penyampaian Laporan Kinerja (LAKIN) Kanwil DJPb dan Reviu LAKIN KPPN|2024|1|||||
+|21550|Performance dialogue tidak terlaksana sesuai ketentuan|2024|1|||||
+|21550|Pegawai terlambat melakukan input hasil penilaian kinerja di aplikasi e-performance|2024|1|||||
+|21550|Terjadi kesalahan dalam pengisian IKU|2024|1|||||
+|21550|Capaian inisiatif sasaran strategis kurang dari target|2024|1|||||
+|21550|Terdapat kesalahan atau keterlambatan penginputan reviu Kualitas Kontrak Kinerja (K3) pada Aplikasi e- performance|2024|1|||||
+|21550|Terdapat Target IKU Kemenkeu-Two Kanwil DJPb yang tidak tercapai|2024|1|||||
+|21550|Kesalahan pengajuan grading|2024|1|||||
+|21550|Kehadiran pegawai dalam mengikuti Gugus Kendali Mutu rendah|2024|1|||||
+|21550|Jumlah pegawai yang mengikuti diklat tidak sesuai target|2024|1|||||
+|21550|Antusias pegawai mengikuti Kegiatan Peningkatan Kompetensi rendah|2024|1|||||
+|21550|Jumlah pegawai yang mengikuti diklat tidak sesuai target|2024|1|||||
+|21550|Antusias pegawai mengikuti Kegiatan Peningkatan Kompetensi rendah|2024|1|||||
+|21550|Terdapat pegawai menerima gratifikasi/suap|2024|1|||||
+|21550|Kehadiran pegawai dalam mengikuti Gugus Kendali Mutu rendah|2024|1|||||
+|21550|Penyampaian dokumen penilaian tugas KI tidak lengkap|2024|1|||||
+|21550|Rapat Unit Pemilik Risiko tidak dilaksanakan sesuai aturan|2024|1|||||
+|21550|Adanya pelanggaran kode etik dan kode disiplin yang dilakukan oleh pegawai|2024|1|||||
+|21550|Keterlibatan pejabat DJPb pada kegiatan yang berpotensi mengandung unsur politik praktis|2024|1|||||
+|21550|Terdapat pegawai yang tidak masuk kerja tanpa keterangan|2024|1|||||
+|21550|Adanya tangkap tangan, pungutan liar (pungli), tindakan korupsi yang terverifikasi oleh Unit Kepatuhan Internal (UKI), Itjen, dan/atau dideteksi oleh Aparat Penegak Hukum|2024|1|||||
+|21551|Kesalahan input tagihan SPBy pada SAKTI|2024|1|||||
+|21551|Analisis data Laporan Reviu Pelaksanaan Anggaran mengandung kesalahan dan tidak komprehensif|2024|1|||||
+|21551|Kelebihan/Kekurangan penyetoran pajak oleh bendahara pengeluaran|2024|1|||||
+|21551|Penyalahgunaan KKP|2024|1|||||
+|21551|Penggunaan KKP tidak memenuhi target transaksi|2024|1|||||
+|21551|Pembayaran tagihan kartu kredit melewati batas akhir tagihan|2024|1|||||
+|21551|Porsi penggunaan KKPD jika dibandingkan dengan KKP relatif lebih kecil|2024|1|||||
+|21551|Keterlambatan pembayaran tunjangan kinerja melalui aplikasi gaji|2024|1|||||
+|21551|Keterlambatan pembayaran uang makan dan uang lembur melalui PPP|2024|1|||||
+|21551|Unit kerja tidak memiliki bendahara tersertifikasi|2024|1|||||
+|21551|Penyampaian LK UAPPA-W tidak memenuhi target|2024|1|||||
+|21551|Implementasi Sistem Akuntansi pada Kanwil tidak berjalan sesuai peraturan|2024|1|||||
+|21551|Kegagalan dalam proses pengadaan barang dan jasa|2024|1|||||
+|21551|Penyelesaian pekerjaan pengadaan barang dan jasa yang melewati batas waktu pada akhir tahun anggaran|2024|1|||||
+|21551|Mark up dalam menentukan Harga Perkiraan Sendiri (HPS)|2024|1|||||
+|21551|Pembayaran kepada penyedia barang/jasa melebihi prestasi pekerjaan|2024|1|||||
+|21551|Terdapat pembelian BBM untuk kendaraan dinas yang tidak wajar|2024|1|||||
+|21551|Kerusakan BMN|2024|1|||||
+|21551|Tidak terpenuhinya pengadaan barang/jasa oleh pihak ketiga terkait spesifikasi, jumlah dan waktu penyelesaian sesuai dengan perjanjian/ kontrak|2024|1|||||
+|21551|Permasalahan infrastruktur IT (server, perangkat jaringan / network, perangkat pendukung) saat proses pelayanan|2024|1|||||
+|21551|Kehilangan aset negara|2024|1|||||
+|21551|Rumah dinas dikuasai oleh pihak lain yang tidak berhak|2024|1|||||
+|21551|Perlawanan pihak ketiga yang tidak berhak dalam menguasai BMN|2024|1|||||
+|21551|Klaim atas aset negara dari pihak ketiga|2024|1|||||
+|21551|Kebakaran gedung kantor|2024|1|||||
+|21551|Penggunaan BMN untuk kepentingan pribadi|2024|1|||||
+|21543|Predikat ZI menuju WBK/WBBM tidak tercapai|2024|1|||||
+|21543|Menurunnya kualitas kinerja pegawai selama penerapan FWS|2024|1|||||
+|21543|Gangguan Teknologi Informasi dan Komunikasi|2024|1|||||
+|21543|Pencabutan predikat WBK atau WBBM pada unit kerja|2024|1|||||
+|21550|Terjadinya penyalahgunaan informasi dan data|2024|1|||||
+|21550|User SPAN digunakan oleh pegawai yang tidak berhak|2024|1|||||
+|21550|Adanya pegawai yang ditetapkan menjadi tersangka pada pelanggaran hukum terkait pelaksanaan anggaran|2024|1|||||
+|21544|Distorsi informasi terkait penyaluran anggaran (APBN) untuk penyelenggaraan Pemilu 2024|2024|1|||||
+|21550|Terdapat aktivitas sosial media pejabat/ pegawai DJPb yang terlibat dalam politik praktis|2024|1|||||
+|21550|Banyaknya pemanggilan terhadap pegawai atas permasalahan hukum terkait pencairan dana TKD|2024|1|||||
+|21550|Menurunnya kepuasan internal pegawai pada unit kerja|2024|1|||||
