@@ -1,8 +1,9 @@
-/* Formatted on 03/11/2025 11:36:40 (QP5 v5.215.12089.38647) */
+/* Formatted on 16/11/2025 17:48:09 (QP5 v5.215.12089.38647) */
   SELECT tahun,
          bulan,
+         nama_bulan,
          kode_bank,
-         kode_bank_deb,
+         nama_bank,
          skema,
          nama_skema,
          sektor_group,
@@ -27,15 +28,16 @@
          ROUND (SUM (rencana_kredit), 0) AS rencana_kredit,
          TO_CHAR (CURRENT_TIMESTAMP, 'yyyy/mm/dd hh24:mi:ss') AS tgl_update
     FROM (SELECT a.kode_bank,
-                 b.kode_bank AS kode_bank_deb,
                  a.skema,
                  d.deskripsi AS nama_skema,
+                 m.nama_bank,
                  a.sektor,
                  e.nama_sektor,
                  e.sektor2 AS sektor_group,
                  f.nama_sektor_group,
                  TO_CHAR (a.tgl_akad, 'mm') AS bulan,
                  TO_CHAR (a.tgl_akad, 'yyyy') AS tahun,
+                 n.nama_bulan,
                  SUBSTR (b.kode_kabkota, 1, 2) AS kode_provinsi,
                  g.nama_provinsi,
                  SUBSTR (b.kode_kabkota, 1, 4) AS kode_wilayah,
@@ -59,8 +61,8 @@
                          sektor,
                          tgl_akad,
                          nilai_akad
-                    FROM kur_t_akad@sikp_19c
-                   WHERE kode_bank = :pkode_bank AND SUBSTR (skema, 1, 1) = 'S') a
+                    FROM kur_t_akad@sikp_olap
+                   WHERE kode_bank = :pkode_bank AND SUBSTR (skema, 1, 2) = '11' AND TO_CHAR (tgl_akad, 'yyyy') = :ptahun) a
                  LEFT JOIN (SELECT kode_bank,
                                    nik,
                                    kode_kabkota,
@@ -69,37 +71,40 @@
                                    jns_kelamin,
                                    maritas_sts,
                                    jml_kredit
-                              FROM kur_t_debitur@sikp_19c) b
-                    ON (a.nik = b.nik)
+                              FROM kur_t_debitur@sikp_olap) b
+                     ON (a.nik = b.nik)
                  LEFT JOIN (  SELECT kode_bank, nomor_rekening, MIN (outstanding) AS outstanding
-                                FROM kur_t_transaksi@sikp_19c
+                                FROM kur_t_transaksi@sikp_olap
                                WHERE kode_bank = :pkode_bank
                             GROUP BY kode_bank, nomor_rekening) c
-                    ON (a.kode_bank = c.kode_bank AND a.rekening_baru = c.nomor_rekening)
+                     ON (a.kode_bank = c.kode_bank AND a.rekening_baru = c.nomor_rekening)
                  LEFT JOIN (SELECT DISTINCT skema, deskripsi FROM kur_r_skema) d
-                    ON (a.skema = d.skema)
+                     ON (a.skema = d.skema)
                  LEFT JOIN (SELECT sektor2, sektor, deskripsi AS nama_sektor FROM kur_r_sektor) e
-                    ON (a.sektor = e.sektor)
+                     ON (a.sektor = e.sektor)
                  LEFT JOIN (SELECT sektor2, deskripsi2 AS nama_sektor_group FROM kur_r_sektor_group) f
-                    ON e.sektor2 = f.sektor2
+                     ON e.sektor2 = f.sektor2
                  LEFT JOIN (SELECT kode_wilayah, nama_wilayah AS nama_provinsi FROM kur_r_wilayah_propinsi) g
-                    ON (SUBSTR (b.kode_kabkota, 1, 2) = g.kode_wilayah)
+                     ON (SUBSTR (b.kode_kabkota, 1, 2) = g.kode_wilayah)
                  LEFT JOIN (SELECT kode_wilayah, nama_wilayah FROM kur_r_wilayah) h
-                    ON (b.kode_kabkota = h.kode_wilayah)
+                     ON (b.kode_kabkota = h.kode_wilayah)
                  LEFT JOIN (SELECT pendidikan, deskripsi AS nama_pendidikan FROM kur_r_pendidikan) i
-                    ON (b.pendidikan = i.pendidikan)
+                     ON (b.pendidikan = i.pendidikan)
                  LEFT JOIN (SELECT pekerjaan, deskripsi AS nama_pekerjaan FROM kur_r_pekerjaan) j
-                    ON (b.pekerjaan = j.pekerjaan)
+                     ON (b.pekerjaan = j.pekerjaan)
                  LEFT JOIN (SELECT kode, nama AS nama_jns_kelamin FROM kur_r_jenis_kelamin) k
-                    ON (b.jns_kelamin = k.kode)
+                     ON (b.jns_kelamin = k.kode)
                  LEFT JOIN (SELECT marital_sts, deskripsi AS nama_marital_sts FROM kur_r_marital_sts) l
-                    ON (b.maritas_sts = l.marital_sts)
-           WHERE a.kode_bank = :pkode_bank AND TO_CHAR (a.tgl_akad, 'yyyy') = :ptahun AND TO_CHAR (a.tgl_akad, 'mm') = :pbulan)
---WHERE kode_bank <> kode_bank_deb
+                     ON (b.maritas_sts = l.marital_sts)
+                 LEFT JOIN (SELECT kode_bank, UPPER (TRIM (nama_bank)) AS nama_bank FROM kur_r_bank) m
+                     ON (a.kode_bank = m.kode_bank)
+                 LEFT JOIN (SELECT periode AS bulan, bulan1 AS nama_bulan FROM kur_r_periode) n
+                     ON (TO_CHAR (a.tgl_akad, 'mm') = n.bulan))
 GROUP BY tahun,
          bulan,
+         nama_bulan,
          kode_bank,
-         kode_bank_deb,
+         nama_bank,
          skema,
          nama_skema,
          sektor_group,
@@ -118,10 +123,12 @@ GROUP BY tahun,
          nama_jns_kelamin,
          kode_marital_sts,
          nama_marital_sts
-ORDER BY skema,
-         sektor_group,
-         sektor,
-         kode_provinsi,
-         kode_wilayah,
-         kode_pendidikan,
-         kode_pekerjaan;
+ORDER BY tahun DESC,
+         bulan DESC,
+         skema ASC,
+         sektor_group ASC,
+         sektor ASC,
+         kode_provinsi ASC,
+         kode_wilayah ASC,
+         kode_pendidikan ASC,
+         kode_pekerjaan ASC;
