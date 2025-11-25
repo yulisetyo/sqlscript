@@ -1,5 +1,6 @@
-/* Formatted on 24/11/2025 12:41:44 (QP5 v5.215.12089.38647) */
-CREATE TABLE SSRG_A_CUSTOM_REPORT AS
+/* Formatted on 25/11/2025 17:58:16 (QP5 v5.215.12089.38647) */
+CREATE TABLE SSRG_A_CUSTOM_REPORT
+AS
       SELECT A.KODE_BANK,
              B.NAMA_BANK,
              A.TAHUN,
@@ -49,13 +50,13 @@ CREATE TABLE SSRG_A_CUSTOM_REPORT AS
              LEFT JOIN (SELECT A.KODE_BANK,
                                A.NIK,
                                A.NAMA,
-                               A.JNS_KELAMIN AS KODE_JNS_KELAMIN,
+                               TO_CHAR (A.JNS_KELAMIN) AS KODE_JNS_KELAMIN,
                                B.NAMA_JNS_KELAMIN,
-                               A.MARITAS_STS AS KODE_MARITAL_STS,
+                               TO_CHAR (A.MARITAS_STS) AS KODE_MARITAL_STS,
                                C.NAMA_MARITAL_STS,
-                               A.PENDIDIKAN AS KODE_PENDIDIKAN,
+                               TO_CHAR (A.PENDIDIKAN) AS KODE_PENDIDIKAN,
                                D.NAMA_PENDIDIKAN,
-                               A.PEKERJAAN AS KODE_PEKERJAAN,
+                               TO_CHAR (A.PEKERJAAN) AS KODE_PEKERJAAN,
                                E.NAMA_PEKERJAAN,
                                SUBSTR (A.KODE_KABKOTA, 1, 2) AS KODE_PROVINSI,
                                G.NAMA_PROVINSI,
