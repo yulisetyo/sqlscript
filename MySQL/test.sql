@@ -17,3 +17,4 @@ SELECT a.nip, a.nama, a.unit, a.unit_tmt
  WHERE LENGTH(a.nip) = 18 
        AND YEAR(a.birthdate) > '1970' 
 ORDER BY a.nip DESC;
+
